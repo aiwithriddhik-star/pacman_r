@@ -14,28 +14,28 @@ mode=""
 
 
 # Load images
-red1= pygame.image.load(r"C:\Users\CWC\Downloads\red.png").convert_alpha()
+red1= pygame.image.load(r"red.png").convert_alpha()
 red1=pygame.transform.scale(red1, (20, 20)) 
-pink1= pygame.image.load(r"C:\Users\CWC\Downloads\pink.png").convert_alpha()
+pink1= pygame.image.load(r"pink.png").convert_alpha()
 pink1=pygame.transform.scale(pink1, (20, 20)) 
-blue1= pygame.image.load(r"C:\Users\CWC\Downloads\blue.png").convert_alpha()
+blue1= pygame.image.load(r"blue.png").convert_alpha()
 blue1=pygame.transform.scale(blue1, (20, 20)) 
-orange1= pygame.image.load(r"C:\Users\CWC\Downloads\orange.png").convert_alpha()
+orange1= pygame.image.load(r"orange.png").convert_alpha()
 orange1=pygame.transform.scale(orange1, (20, 20)) 
 font = pygame.font.SysFont("Arial", 24)
 
 
 
 
-pacman_img1 = pygame.image.load(r"C:\Users\CWC\Downloads\1.png").convert_alpha()
+pacman_img1 = pygame.image.load(r"1.png").convert_alpha()
 pacman_img1= pygame.transform.scale(pacman_img1, (20, 20))    # sizing the image
-pacman2 = pygame.image.load(r"C:\Users\CWC\Downloads\2.png").convert_alpha()
+pacman2 = pygame.image.load(r"2.png").convert_alpha()
 pacman2 = pygame.transform.scale(pacman2, (20, 20))
-pacman3 = pygame.image.load(r"C:\Users\CWC\Downloads\3.png").convert_alpha()
+pacman3 = pygame.image.load(r"3.png").convert_alpha()
 pacman3 = pygame.transform.scale(pacman3, (20, 20))
-pacman4= pygame.image.load(r"C:\Users\CWC\Downloads\4.png").convert_alpha()
+pacman4= pygame.image.load(r"4.png").convert_alpha()
 pacman4= pygame.transform.scale(pacman4, (20, 20))
-frozen=pygame.image.load(r"C:\Users\CWC\Downloads\powerup.png").convert_alpha()
+frozen=pygame.image.load(r"powerup.png").convert_alpha()
 frozen= pygame.transform.scale(frozen, (20, 20))
 
 
@@ -403,7 +403,7 @@ while True:
         
 
         if mode=="s":
-            if timer<t+8000:
+            if timer<t+5000:
                     red.image=frozen
                     pink.image=frozen
                     blue.image=frozen
